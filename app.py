@@ -9,7 +9,7 @@ import traceback
 app = Flask(__name__)
 
 # ✅ Your device path
-DEVICE_PATH = "/storage/emulated/0/Documents/Pydroid3/generic_8159_l3.wvd"
+DEVICE_PATH = "generic_8159_l3.wvd"
 
 
 @app.route("/", methods=["GET"])
